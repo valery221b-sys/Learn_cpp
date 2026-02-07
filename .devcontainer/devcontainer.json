@@ -8,9 +8,7 @@
     "runArgs": [
         "--cap-drop=ALL",
         "--cap-add=SYS_PTRACE",
-        "--security-opt=seccomp=unconfined",
-        "--memory=512m",
-        "--cpus=1"
+        "--security-opt=seccomp=unconfined"
     ],
     "containerEnv": {
         "CC": "clang",
